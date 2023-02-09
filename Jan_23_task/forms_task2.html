@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Contact forms</title>
+        <link rel="stylesheet" type="text/css" href="forms task 2.css">
+    </head>
+    <body>
+        <!--
+            <header>Contact details</header>
+        -->
+        <form method="get" action="mailto:dominicsamy05@gmail.com">
+            <fieldset style="display:inline;">
+                <legend>Contact info</legend>
+                <table cellspacing="10px">
+                <tr >
+                    <td>
+                        <label for="fname">First Name:<span class="req">*</span></label>
+
+                    </td>
+                    <td>
+                        <input type="text" id="fname" name="fn" placeholder="Enter First name" required>
+
+                    </td>
+                </tr>
+                <tr >
+                    <td>
+                        <label for="lname">Last Name: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="lname" name="ln" placeholder="Enter last name">
+                    </td>
+                </tr>
+                <tr >
+                    <td>
+                        <label for="email">Email:<span class="req">*</span></label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="ei" placeholder="Enter email_id" required>
+                    </td>
+                </tr>
+                <tr > 
+                    <td>
+                        <label for="pnumber">Phone Number:<span class="req">*</span></label>
+                    </td>
+                    <td>
+                        <input type="tel" id="pnumber" name="Ph" placeholder="Enter Ph no." required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="home">Home: </label> 
+                    </td>
+                    <td>
+                        <textarea type="text" id="home" name="home" rows="4" cols="20"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dob">Birthday</label>
+                    </td>
+                    <td>
+                        <input type="date" id="dob" name="dob">
+                    </td>
+                </tr>
+                <tr >
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="Save" >
+                    </td>
+                </tr>
+            </table>
+            </fieldset>
+        </form>
+    </body>
+</html>

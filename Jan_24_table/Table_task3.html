@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <style>
+        .yel{
+            background-color:rgb(242, 236, 183);
+        }
+        .blu{
+            background-color: rgb(188, 177, 248);
+        }
+        .gre{
+            background-color: rgb(188, 234, 178);
+        }
+    </style>
+</head>
+<body>
+    <table border="2" >
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2" class="yel">08:00 a.m.</td>
+            <td rowspan="2" class="blu">05:00 p.m.</td>
+            <td >Introduction to XML</td>
+        </tr>
+        <tr>
+            <td >Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td class="yel">08:00 a.m.</td>
+            <td class="yel">11:00 a.m.</td>
+            <td  rowspan="2">XPath</td>
+        </tr>
+        <tr>
+            <td class="yel">11:00 a.m.</td>
+            <td class="gre">02:00 p.m.</td>
+        </tr>
+        <tr>
+            <td class="gre">02:00 p.m.</td>
+            <td class="blu">05:00 p.m.</td>
+            <td rowspan="1">XSL Transformations</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td class="yel">08:00 a.m.</td>
+            <td class="gre">12:00 p.m.</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+        </table>
+</body>
+</html>
