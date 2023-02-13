@@ -1,0 +1,166 @@
+body{
+    margin:0px;
+    
+}
+
+.head_cont{
+    display:flex;
+    width:100%;
+    background-color:darkcyan;
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+
+.body_cont{
+    background-image: url(img/bgimg5.jfif);
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    width:100%;
+    /* padding-bottom: 0.7%; */
+    margin-top:59px;
+}
+
+
+.logo{
+    padding: 1.1% 1% 0.5% 1%;
+}
+.head_sub_cont1{
+    padding-left:10%;
+    width:45%;
+    font-family: monospace;
+    letter-spacing: 1px;
+    font-size:17px;
+}
+
+.head_sub_cont2{
+    display:inherit;
+    width:50%;
+    margin-right:7%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.head_sub_cont2_1{
+    /* width:16.66666666666667%; */
+    margin:18.720px 0px;
+}
+
+.body_sub_1{
+    width:30%;
+    margin-top:16%;
+    margin-left:23%;
+}
+
+.body_sub_2{
+    width:50%;
+}
+
+.icons{
+    display:flex;
+    width:100%;
+}
+
+.icons_sub{
+    width:15%;
+    margin-bottom:46.4%;
+}
+
+.button_item{
+    background-color:darkcyan;
+    border-color: darkcyan;
+}
+
+/* aboutme */
+#about{
+    display:flex;
+    background-image: url(img/bgimg5.jfif);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.profile{
+    width:60%;
+    /* padding:20% 10%; */
+    padding-top: 20%;
+    padding-bottom:15.5555%;
+    padding-right:6%;
+    padding-left:15%;
+    
+}
+.para_profile{
+    font-family:cursive;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 3%;
+    word-spacing:7px;
+    line-height: 30px;
+}
+
+.address{
+    width:40%;
+    padding-top:20%;
+}
+
+.new_page{
+    width: 100%;
+    height:608.615px;
+    /* display:block; */
+    background-image: url(img/bgimg5.jfif);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.skill_list_cont{
+    margin-top:-1%;
+    margin-left: 29.5%;
+    font-family: cursive;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 3;
+}
+
+.edu_table{
+    margin-left: 30%;
+    font-family:cursive;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 24px;
+    margin-top:-1%;
+}
+
+.extras_cont{
+    padding-top:19%;
+    padding-left: 19%;
+}
+
+.table_contact{
+    margin-left:29%;
+}
+
+.font_cont{
+    font-family:cursive;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 24px;
+}
+
+.contact_logo{
+    margin-left:22%;
+}
+
+.contact_logo_sub{
+    padding:16% 0%;
+}
+
+/* media-query  */
+@media (hover: hover) {
+    /* when hover is supported */
+    a:hover {
+      color: white;
+      background: rgb(218, 174, 174);
+    }
+  }
